@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="supermercado">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Supermecado Lucas</title>
+    <base href="/">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheets/materialize.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="nav-wrapper">
+            <a href="/" class="brand-logo">Home</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li data-ng-repeat="page in pages">
+                    <a href="/{{page}}">{{page}}</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <data-ng-view></data-ng-view>
+    </div>
+
+    <!-- scripts of frameworks and libs-->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+    <script src="assets/javascripts/angular.js"></script>
+    <script src="assets/javascripts/angular-route.js"></script>
+    <script src="assets/javascripts/materialize.js"></script>
+
+<!-- scripts app -->
+    <script src="app.js"></script>
+    <script src="app/home/index.js"></script>
+    <script src="app/login/index.js"></script>
+    <script src="app/produtos/index.js"></script>
+    <script src="app/carrinho/index.js"></script>
+    <script src="app/pedidos/index.js"></script>
+    <script src="app/checkout/index.js"></script>
+</body>
+</html>

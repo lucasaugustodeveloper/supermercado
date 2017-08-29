@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "id": 0,
+      "name": "name",
+      "price": "00",
+      "description": "description",
+      "image": "url_image"
+    },
+    {
+      "id": 1,
+      "name": "name",
+      "price": "00",
+      "description": "description",
+      "image": "url_image"
+    },
+    {
+      "id": 2,
+      "name": "name",
+      "price": "00",
+      "description": "description",
+      "image": "url_image"
+    },
+    {
+      "id": 3,
+      "name": "name",
+      "price": "00",
+      "description": "description",
+      "image": "url_image"
+    },
+    {
+      "id": 4,
+      "name": "name",
+      "price": "00",
+      "description": "description",
+      "image": "url_image"
+    },
+    {
+      "id": 5,
+      "name": "name",
+      "price": "00",
+      "description": "description",
+      "image": "url_image"
+    }
+  ]
+}
